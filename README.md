@@ -186,6 +186,3 @@ Contribuciones
 
 Las contribuciones son bienvenidas. Por favor, abre un *issue* para discutir cambios mayores o reportar errores. Los *Pull Requests* también son bienvenidos.
 
-Licencia
-
-Por favor, añade tu licencia preferida aquí (ej. MIT, Apache 2.0, GPL, etc.). Si no se especifica, se considera código propietario.
