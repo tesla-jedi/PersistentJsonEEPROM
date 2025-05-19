@@ -1,0 +1,8 @@
+PersistentJsonEEPROM	KEYWORD1
+begin	KEYWORD2
+append	KEYWORD2
+data	KEYWORD2
+usage	KEYWORD2
+Delete	KEYWORD2
+read	KEYWORD2
+clearAll	KEYWORD2
