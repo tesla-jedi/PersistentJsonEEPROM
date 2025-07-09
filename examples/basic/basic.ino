@@ -4,7 +4,7 @@
 // Usar la dirección I2C y tamaño por defecto para AT24C256
 PersistentJsonEEPROM eeprom;
 // O especificar: PersistentJsonEEPROM eeprom(0x51, 16384); // Para una EEPROM de 16Kbit en 0x51
-//IMPORTANTE: cambiar puertos I2c a los correspondientes en tu placa de desarrollo
+//IMPORTANTE: cambiar puertos I2c a los correspondientes en tu placa de desarrollo y descomentar Wire.begin(SDApin, SCLpin);
 //#define SDApin 7
 //#define SCLpin 8
 
