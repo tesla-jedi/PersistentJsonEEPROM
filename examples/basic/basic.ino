@@ -4,10 +4,13 @@
 // Usar la dirección I2C y tamaño por defecto para AT24C256
 PersistentJsonEEPROM eeprom;
 // O especificar: PersistentJsonEEPROM eeprom(0x51, 16384); // Para una EEPROM de 16Kbit en 0x51
-
+//IMPORTANTE: cambiar puertos I2c a los correspondientes en tu placa de desarrollo
+//#define SDApin 7
+//#define SCLpin 8
 
 void setup() {
   Serial.begin(115200);
+  //Wire.begin(SDApin, SCLpin); 
   while (!Serial);
   Serial.println("PersistentJsonEEPROM Demo");
 
